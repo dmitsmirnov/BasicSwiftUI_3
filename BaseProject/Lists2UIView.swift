@@ -13,7 +13,7 @@ struct Lists2UIView: View {
     
     var body: some View {
         
-        ScrollView {
+        //ScrollView {
             
             NavigationStack {
                 
@@ -57,7 +57,7 @@ struct Lists2UIView: View {
                 
             } // NavigationStack
             
-        }
+        //}
     }
     
     func delete(at offsets: IndexSet) {
