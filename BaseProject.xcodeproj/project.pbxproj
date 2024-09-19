@@ -46,6 +46,7 @@
 		CECD10D62C738F0C00602B89 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD10D52C738F0C00602B89 /* TaskListView.swift */; };
 		CECD10DA2C776BCE00602B89 /* BottomSafeAreaUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD10D92C776BCD00602B89 /* BottomSafeAreaUIView.swift */; };
 		CECD10DC2C78EADC00602B89 /* ParametersUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD10DB2C78EADC00602B89 /* ParametersUIView.swift */; };
+		CEF484D02C9C6F9F0098AB20 /* PageTabUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF484CF2C9C6F9F0098AB20 /* PageTabUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,7 @@
 		CECD10D52C738F0C00602B89 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		CECD10D92C776BCD00602B89 /* BottomSafeAreaUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSafeAreaUIView.swift; sourceTree = "<group>"; };
 		CECD10DB2C78EADC00602B89 /* ParametersUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersUIView.swift; sourceTree = "<group>"; };
+		CEF484CF2C9C6F9F0098AB20 /* PageTabUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTabUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				CE13E6B82C8607AE007D231F /* ScrollReaderUIView.swift */,
 				CE991D7B2C8B39E200CD542A /* List3UIView.swift */,
 				CE991D7E2C948ADC00CD542A /* SearchUIView.swift */,
+				CEF484CF2C9C6F9F0098AB20 /* PageTabUIView.swift */,
 				CE40D62A2BA833E800C2C1FF /* Assets.xcassets */,
 				CE40D62C2BA833E800C2C1FF /* Preview Content */,
 			);
@@ -277,6 +280,7 @@
 				CEAE44822BAA32620012137F /* TabUIView.swift in Sources */,
 				CE8828592BAC1BB10069421B /* FlagsUIView.swift in Sources */,
 				CE991D7C2C8B39E200CD542A /* List3UIView.swift in Sources */,
+				CEF484D02C9C6F9F0098AB20 /* PageTabUIView.swift in Sources */,
 				CE0EB9712C51370400B2D59B /* TipKit2UIView.swift in Sources */,
 				CEAE44742BA976E50012137F /* ButtonsUIView.swift in Sources */,
 				CEAE447C2BA9852E0012137F /* GestureUIView.swift in Sources */,
