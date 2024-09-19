@@ -13,8 +13,27 @@ struct BaseProjectApp: App {
     
     @StateObject private var taskList = TaskList()
     
+    @ObservedObject var appViewModel: AppViewModel = AppViewModel()
+    
+    init(){
+        if UserDefaults.standard.bool(forKey: "isLogin") {
+            appViewModel.isLogin = true
+        } else {
+            appViewModel.isLogin = false
+        }
+    }
+    
     var body: some Scene {
         WindowGroup {
+            
+            if appViewModel.isLogin {
+                ContentUIView()
+                    .environmentObject(appViewModel)
+            } else {
+                LoginUIView()
+                    .environmentObject(appViewModel)
+            }
+            
             //Picker_VMPUIView()
 //            TipKitUIView()
 //                .task {
@@ -27,7 +46,7 @@ struct BaseProjectApp: App {
 //                }
 //            EnvironmentObjectUIView()
 //                .environmentObject(taskList)
-            SearchUIView()
+//            SearchUIView()
         }
         
     }

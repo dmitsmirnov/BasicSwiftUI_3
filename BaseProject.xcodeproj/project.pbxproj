@@ -12,6 +12,9 @@
 		CE11E4C62C4005DF0025D923 /* Chat2UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11E4C52C4005DE0025D923 /* Chat2UIView.swift */; };
 		CE13E6B92C8607AE007D231F /* ScrollReaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13E6B82C8607AE007D231F /* ScrollReaderUIView.swift */; };
 		CE1E59C32BAC69C300338215 /* Picker_VMPUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E59C22BAC69C300338215 /* Picker_VMPUIView.swift */; };
+		CE3079222C9C319000CF3B93 /* LoginUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3079212C9C319000CF3B93 /* LoginUIView.swift */; };
+		CE3079242C9C31AC00CF3B93 /* ContentUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3079232C9C31AC00CF3B93 /* ContentUIView.swift */; };
+		CE3079262C9C31C300CF3B93 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3079252C9C31C300CF3B93 /* AppViewModel.swift */; };
 		CE40D6272BA833E500C2C1FF /* BaseProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE40D6262BA833E500C2C1FF /* BaseProjectApp.swift */; };
 		CE40D6292BA833E500C2C1FF /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE40D6282BA833E500C2C1FF /* StacksView.swift */; };
 		CE40D62B2BA833E800C2C1FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE40D62A2BA833E800C2C1FF /* Assets.xcassets */; };
@@ -51,6 +54,9 @@
 		CE11E4C52C4005DE0025D923 /* Chat2UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat2UIView.swift; sourceTree = "<group>"; };
 		CE13E6B82C8607AE007D231F /* ScrollReaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollReaderUIView.swift; sourceTree = "<group>"; };
 		CE1E59C22BAC69C300338215 /* Picker_VMPUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_VMPUIView.swift; sourceTree = "<group>"; };
+		CE3079212C9C319000CF3B93 /* LoginUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUIView.swift; sourceTree = "<group>"; };
+		CE3079232C9C31AC00CF3B93 /* ContentUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUIView.swift; sourceTree = "<group>"; };
+		CE3079252C9C31C300CF3B93 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 		CE40D6232BA833E500C2C1FF /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE40D6262BA833E500C2C1FF /* BaseProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProjectApp.swift; sourceTree = "<group>"; };
 		CE40D6282BA833E500C2C1FF /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
@@ -96,10 +102,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE3079202C9C316300CF3B93 /* registApp */ = {
+			isa = PBXGroup;
+			children = (
+				CE3079232C9C31AC00CF3B93 /* ContentUIView.swift */,
+				CE3079212C9C319000CF3B93 /* LoginUIView.swift */,
+				CE3079252C9C31C300CF3B93 /* AppViewModel.swift */,
+			);
+			path = registApp;
+			sourceTree = "<group>";
+		};
 		CE40D61A2BA833E500C2C1FF = {
 			isa = PBXGroup;
 			children = (
-				CECD10D92C776BCD00602B89 /* BottomSafeAreaUIView.swift */,
 				CE40D6252BA833E500C2C1FF /* BaseProject */,
 				CE40D6242BA833E500C2C1FF /* Products */,
 			);
@@ -116,7 +131,9 @@
 		CE40D6252BA833E500C2C1FF /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				CE3079202C9C316300CF3B93 /* registApp */,
 				CE40D6262BA833E500C2C1FF /* BaseProjectApp.swift */,
+				CECD10D92C776BCD00602B89 /* BottomSafeAreaUIView.swift */,
 				CE40D6282BA833E500C2C1FF /* StacksView.swift */,
 				CE8828582BAC1BB10069421B /* FlagsUIView.swift */,
 				CEAE446F2BA8E5020012137F /* GragientsUIView.swift */,
@@ -233,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3079222C9C319000CF3B93 /* LoginUIView.swift in Sources */,
 				CEAE44702BA8E5020012137F /* GragientsUIView.swift in Sources */,
 				CECD10DC2C78EADC00602B89 /* ParametersUIView.swift in Sources */,
 				CEAE44882BAAD32E0012137F /* AlertUIView.swift in Sources */,
@@ -252,6 +270,7 @@
 				CE40D6292BA833E500C2C1FF /* StacksView.swift in Sources */,
 				CECD10D42C738EAD00602B89 /* AddTaskView.swift in Sources */,
 				CEAE446C2BA8DD530012137F /* TextsView.swift in Sources */,
+				CE3079242C9C31AC00CF3B93 /* ContentUIView.swift in Sources */,
 				CEAE44802BAA2E7D0012137F /* Lists2UIView.swift in Sources */,
 				CEAE44722BA8E9F60012137F /* StateUIView.swift in Sources */,
 				CEAE44862BAAC7300012137F /* CalculateTipsUIView.swift in Sources */,
@@ -261,6 +280,7 @@
 				CE0EB9712C51370400B2D59B /* TipKit2UIView.swift in Sources */,
 				CEAE44742BA976E50012137F /* ButtonsUIView.swift in Sources */,
 				CEAE447C2BA9852E0012137F /* GestureUIView.swift in Sources */,
+				CE3079262C9C31C300CF3B93 /* AppViewModel.swift in Sources */,
 				CE11E4C62C4005DF0025D923 /* Chat2UIView.swift in Sources */,
 				CECD10D62C738F0C00602B89 /* TaskListView.swift in Sources */,
 				CE40D6272BA833E500C2C1FF /* BaseProjectApp.swift in Sources */,
