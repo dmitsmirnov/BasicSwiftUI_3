@@ -11,6 +11,7 @@
 		CE0EB9712C51370400B2D59B /* TipKit2UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EB9702C51370400B2D59B /* TipKit2UIView.swift */; };
 		CE11E4C62C4005DF0025D923 /* Chat2UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11E4C52C4005DE0025D923 /* Chat2UIView.swift */; };
 		CE13E6B92C8607AE007D231F /* ScrollReaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13E6B82C8607AE007D231F /* ScrollReaderUIView.swift */; };
+		CE1A76F32CBEC15E00E4D898 /* ScrollViewHorisontalUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A76F22CBEC15E00E4D898 /* ScrollViewHorisontalUIView.swift */; };
 		CE1E59C32BAC69C300338215 /* Picker_VMPUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E59C22BAC69C300338215 /* Picker_VMPUIView.swift */; };
 		CE3079222C9C319000CF3B93 /* LoginUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3079212C9C319000CF3B93 /* LoginUIView.swift */; };
 		CE3079242C9C31AC00CF3B93 /* ContentUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3079232C9C31AC00CF3B93 /* ContentUIView.swift */; };
@@ -19,6 +20,7 @@
 		CE40D6292BA833E500C2C1FF /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE40D6282BA833E500C2C1FF /* StacksView.swift */; };
 		CE40D62B2BA833E800C2C1FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE40D62A2BA833E800C2C1FF /* Assets.xcassets */; };
 		CE40D62E2BA833E800C2C1FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE40D62D2BA833E800C2C1FF /* Preview Assets.xcassets */; };
+		CE5C55312CAD72FD00E01C86 /* GetMenuUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C55302CAD72FC00E01C86 /* GetMenuUIView.swift */; };
 		CE6269772C48025100E07BCB /* GetFuncUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6269762C48025100E07BCB /* GetFuncUIView.swift */; };
 		CE8828592BAC1BB10069421B /* FlagsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8828582BAC1BB10069421B /* FlagsUIView.swift */; };
 		CE88285B2BAC2C340069421B /* ModifiersUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88285A2BAC2C340069421B /* ModifiersUIView.swift */; };
@@ -54,6 +56,7 @@
 		CE0EB9702C51370400B2D59B /* TipKit2UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipKit2UIView.swift; sourceTree = "<group>"; };
 		CE11E4C52C4005DE0025D923 /* Chat2UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat2UIView.swift; sourceTree = "<group>"; };
 		CE13E6B82C8607AE007D231F /* ScrollReaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollReaderUIView.swift; sourceTree = "<group>"; };
+		CE1A76F22CBEC15E00E4D898 /* ScrollViewHorisontalUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewHorisontalUIView.swift; sourceTree = "<group>"; };
 		CE1E59C22BAC69C300338215 /* Picker_VMPUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_VMPUIView.swift; sourceTree = "<group>"; };
 		CE3079212C9C319000CF3B93 /* LoginUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUIView.swift; sourceTree = "<group>"; };
 		CE3079232C9C31AC00CF3B93 /* ContentUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUIView.swift; sourceTree = "<group>"; };
@@ -63,6 +66,7 @@
 		CE40D6282BA833E500C2C1FF /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
 		CE40D62A2BA833E800C2C1FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE40D62D2BA833E800C2C1FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE5C55302CAD72FC00E01C86 /* GetMenuUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMenuUIView.swift; sourceTree = "<group>"; };
 		CE6269762C48025100E07BCB /* GetFuncUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFuncUIView.swift; sourceTree = "<group>"; };
 		CE8828582BAC1BB10069421B /* FlagsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsUIView.swift; sourceTree = "<group>"; };
 		CE88285A2BAC2C340069421B /* ModifiersUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersUIView.swift; sourceTree = "<group>"; };
@@ -169,6 +173,8 @@
 				CE991D7B2C8B39E200CD542A /* List3UIView.swift */,
 				CE991D7E2C948ADC00CD542A /* SearchUIView.swift */,
 				CEF484CF2C9C6F9F0098AB20 /* PageTabUIView.swift */,
+				CE5C55302CAD72FC00E01C86 /* GetMenuUIView.swift */,
+				CE1A76F22CBEC15E00E4D898 /* ScrollViewHorisontalUIView.swift */,
 				CE40D62A2BA833E800C2C1FF /* Assets.xcassets */,
 				CE40D62C2BA833E800C2C1FF /* Preview Content */,
 			);
@@ -269,6 +275,7 @@
 				CEAE447E2BA98BF10012137F /* ListsUIView.swift in Sources */,
 				CE9071B12BC968F6007D006C /* ChartUIView.swift in Sources */,
 				CE13E6B92C8607AE007D231F /* ScrollReaderUIView.swift in Sources */,
+				CE5C55312CAD72FD00E01C86 /* GetMenuUIView.swift in Sources */,
 				CEAE447A2BA982420012137F /* StepperUIView.swift in Sources */,
 				CE40D6292BA833E500C2C1FF /* StacksView.swift in Sources */,
 				CECD10D42C738EAD00602B89 /* AddTaskView.swift in Sources */,
@@ -286,6 +293,7 @@
 				CEAE447C2BA9852E0012137F /* GestureUIView.swift in Sources */,
 				CE3079262C9C31C300CF3B93 /* AppViewModel.swift in Sources */,
 				CE11E4C62C4005DF0025D923 /* Chat2UIView.swift in Sources */,
+				CE1A76F32CBEC15E00E4D898 /* ScrollViewHorisontalUIView.swift in Sources */,
 				CECD10D62C738F0C00602B89 /* TaskListView.swift in Sources */,
 				CE40D6272BA833E500C2C1FF /* BaseProjectApp.swift in Sources */,
 				CE88285B2BAC2C340069421B /* ModifiersUIView.swift in Sources */,

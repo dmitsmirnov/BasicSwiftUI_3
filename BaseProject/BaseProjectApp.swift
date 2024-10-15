@@ -26,13 +26,16 @@ struct BaseProjectApp: App {
     var body: some Scene {
         WindowGroup {
             
-            if appViewModel.isLogin {
-                ContentUIView()
-                    .environmentObject(appViewModel)
-            } else {
-                LoginUIView()
-                    .environmentObject(appViewModel)
-            }
+//            if appViewModel.isLogin {
+//                ContentUIView()
+//                    .environmentObject(appViewModel)
+//            } else {
+//                LoginUIView()
+//                    .environmentObject(appViewModel)
+//            }
+            
+//            GetMenuUIView()
+            ScrollViewHorisontalUIView()
             
             //Picker_VMPUIView()
 //            TipKitUIView()
