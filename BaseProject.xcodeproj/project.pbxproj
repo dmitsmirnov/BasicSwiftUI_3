@@ -16,6 +16,7 @@
 		CE3079222C9C319000CF3B93 /* LoginUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3079212C9C319000CF3B93 /* LoginUIView.swift */; };
 		CE3079242C9C31AC00CF3B93 /* ContentUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3079232C9C31AC00CF3B93 /* ContentUIView.swift */; };
 		CE3079262C9C31C300CF3B93 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3079252C9C31C300CF3B93 /* AppViewModel.swift */; };
+		CE3E8D832CD678C700571E13 /* ImageOnMainUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E8D822CD678C700571E13 /* ImageOnMainUIView.swift */; };
 		CE40D6272BA833E500C2C1FF /* BaseProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE40D6262BA833E500C2C1FF /* BaseProjectApp.swift */; };
 		CE40D6292BA833E500C2C1FF /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE40D6282BA833E500C2C1FF /* StacksView.swift */; };
 		CE40D62B2BA833E800C2C1FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE40D62A2BA833E800C2C1FF /* Assets.xcassets */; };
@@ -61,6 +62,7 @@
 		CE3079212C9C319000CF3B93 /* LoginUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUIView.swift; sourceTree = "<group>"; };
 		CE3079232C9C31AC00CF3B93 /* ContentUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUIView.swift; sourceTree = "<group>"; };
 		CE3079252C9C31C300CF3B93 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		CE3E8D822CD678C700571E13 /* ImageOnMainUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOnMainUIView.swift; sourceTree = "<group>"; };
 		CE40D6232BA833E500C2C1FF /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE40D6262BA833E500C2C1FF /* BaseProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProjectApp.swift; sourceTree = "<group>"; };
 		CE40D6282BA833E500C2C1FF /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				CEF484CF2C9C6F9F0098AB20 /* PageTabUIView.swift */,
 				CE5C55302CAD72FC00E01C86 /* GetMenuUIView.swift */,
 				CE1A76F22CBEC15E00E4D898 /* ScrollViewHorisontalUIView.swift */,
+				CE3E8D822CD678C700571E13 /* ImageOnMainUIView.swift */,
 				CE40D62A2BA833E800C2C1FF /* Assets.xcassets */,
 				CE40D62C2BA833E800C2C1FF /* Preview Content */,
 			);
@@ -289,6 +292,7 @@
 				CE991D7C2C8B39E200CD542A /* List3UIView.swift in Sources */,
 				CEF484D02C9C6F9F0098AB20 /* PageTabUIView.swift in Sources */,
 				CE0EB9712C51370400B2D59B /* TipKit2UIView.swift in Sources */,
+				CE3E8D832CD678C700571E13 /* ImageOnMainUIView.swift in Sources */,
 				CEAE44742BA976E50012137F /* ButtonsUIView.swift in Sources */,
 				CEAE447C2BA9852E0012137F /* GestureUIView.swift in Sources */,
 				CE3079262C9C31C300CF3B93 /* AppViewModel.swift in Sources */,

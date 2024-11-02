@@ -17,7 +17,7 @@ struct ScrollViewHorisontalUIView: View {
         
         VStack {
             
-            CustomPickerView(currentTab: $currentTab, list: list)
+            CustomAnalyticsPickerView(currentTab: $currentTab, list: list)
                 
             Text(currentTab)
             
@@ -26,7 +26,7 @@ struct ScrollViewHorisontalUIView: View {
     }
 }
 
-struct CustomPickerView: View {
+struct CustomAnalyticsPickerView: View {
     
     @Binding var currentTab: String
     @State var list: [String]
@@ -61,7 +61,6 @@ struct CustomPickerView: View {
             //.frame(height: 30) // Задайте высоту для ScrollView
         }
         .padding()
-        
         
     }
 }
